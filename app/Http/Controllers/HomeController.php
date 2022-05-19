@@ -24,6 +24,7 @@ class HomeController extends Controller
         if (Auth::check()) {
             return redirect('cabinet');
         }
+        dd('aa');
         return view('home');
     }
 }
