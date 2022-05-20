@@ -14,6 +14,7 @@ class UserController extends Controller
 {
     public function index()
     {
+        $name = "Elaman";
         return view('cabinet');
     }
 
